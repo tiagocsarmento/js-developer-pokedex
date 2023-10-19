@@ -1,0 +1,134 @@
+.header {
+    margin: 0;
+    padding: 1rem;
+}
+
+.header a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.pokemon_details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0;
+}
+
+#content {
+    height: 100%;
+}
+
+.name_details {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+
+.types_details {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.type_details {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0.25rem;
+    font-size: .750rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+.number_details { 
+    color: rgba(0, 0, 0, 0.349);
+    font-size: .875rem;
+    text-align: right;
+}
+
+.details_details {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container_details {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+    margin-bottom: -2rem;
+    height: 35vh;
+}
+
+.image_details {
+    margin: 0 auto;
+    padding: 1rem;
+    height: 100%;
+    
+}
+
+.info_details {
+    background-color: #f3f3f3;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    height: 100%;
+}
+
+.divider_details {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.about-section_details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.characteristics_details {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0rem 2rem .5rem 0;
+    list-style: none;
+}
+
+.char-name_details {
+    margin: .5rem 0;
+    font-weight: bold; 
+    color: black;  
+}
+
+.char_details {
+    text-transform: capitalize;
+    margin: .5rem 0;
+    color: rgb(59, 59, 59);
+}
+
+.breeding-section_details {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 380px) {
+    
+}
+
+@media screen and (min-width: 576px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}

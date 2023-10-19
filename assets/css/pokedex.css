@@ -6,6 +6,21 @@
     list-style: none;
 }
 
+#detailsConteiner {
+    position: fixed;
+    pointer-events: none; 
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.backButton {
+    pointer-events: auto;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -79,11 +94,15 @@
 }
 
 .pokemon {
-    display: flex;
-    flex-direction: column;
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.hyperlink {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .pokemon .number {
@@ -123,7 +142,7 @@
 }
 
 .pokemon .detail img {
-    max-width: 100%;
+    max-width: 50%;
     height: 70px;
 }
 
